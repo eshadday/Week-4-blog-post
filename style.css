@@ -1,0 +1,100 @@
+body{
+	background-color: seagreen;
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style: None;
+	display: inline-block;
+	margin-right: 15px;
+	font-size: 20px;
+}
+
+.nav-li{
+	display: inline-block;
+}
+
+.Nav{
+	background-color: white;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+h1 {
+	margin-left: 40px;
+	font-family: copperplate, fantasy;
+	color: skyblue;
+}
+
+h2 {
+	margin: 0;
+	font-family: Georgia, sans-serif;
+	color: darkseagreen;
+	font-size: 20px;
+
+}
+
+p {
+	font-family: copperplate, "Lucida Console", monospace;
+	font-size: 10px;
+	color: yellowgreen;
+}
+
+.box-1{
+	display: flex;
+	order: 1;
+	border: 1px black solid;
+	padding: 20px;
+	margin: 5px;
+	margin-left: 5px;
+}
+
+.box-2{
+	display: flex;
+	order: 2;
+	border: 1px black solid;
+	padding: 20px;
+	margin: 5px;
+	margin-left: 5px;
+}
+
+.box-3{
+	display: flex;
+	order: 3;
+	border: 1px black solid;
+	padding: 20px;
+	margin: 5px;
+	margin-left: 5px;
+}
+
+.box-4{
+	display: flex;
+	order: 4;
+	border: 1px black solid;
+	padding: 20px;
+	margin: 5px;
+	margin-left: 5px;
+}
+
+.Nav-Mobile {
+	display: none;
+}
+.Nav-Mobile-Items{
+	display: none;
+}
+
+li.Nav-Mobile-Items {
+	/*display:  none;
+}
+
+@media screen and (max-width: 480px) {
+	.Nav{
+		display: none;
+	}
+	.Nav-Mobile {
+		display: block;
+		text-align: center;
+	}
+}
